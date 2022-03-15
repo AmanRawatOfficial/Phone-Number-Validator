@@ -1,0 +1,20 @@
+.main_container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 100vw;
+    height: 88rem; /* 880px */
+    background-color: orange;
+}
+
+.heading {
+    text-align: center;
+    padding-top: 4.8rem;
+    font-weight: 700;
+    font-size: 4.8rem;
+}

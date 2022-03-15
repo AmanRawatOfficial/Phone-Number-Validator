@@ -1,0 +1,28 @@
+/*
+
+/** 01 TYPOGRAPHY SYSTEM 
+
+- Fonts Sizes (px) 
+9, 10, 11, 12, 13, 14, 18, 24, 36, 48, 64, 72, 96, 144, 288
+
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+* {
+    /* Page ReSetting */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    /* font-size: 10px */
+    /* 10px / 16px = 0.625 = 62.5% */
+    /* Percentage of user's browser font-size setting */
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
